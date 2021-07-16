@@ -12,7 +12,7 @@ def chama_segunda_tela():
     senha_bd = cursor.fetchall()
     print(senha_bd[0][0])
     banco.close()
-
+#aaaa#
 
     if senha == senha_bd[0][0] :
         primeira_tela.close()
